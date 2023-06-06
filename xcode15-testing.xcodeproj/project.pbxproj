@@ -12,6 +12,7 @@
 		F73A0F842A2F129F0045EF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73A0F832A2F129F0045EF01 /* Assets.xcassets */; };
 		F73A0F872A2F129F0045EF01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73A0F862A2F129F0045EF01 /* Preview Assets.xcassets */; };
 		F73A0F922A2F130D0045EF01 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0F912A2F130D0045EF01 /* Dog.swift */; };
+		F75C2AFC2A2F1EDE009523D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F75C2AFB2A2F1EDE009523D2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F73A0F862A2F129F0045EF01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F73A0F882A2F129F0045EF01 /* xcode15_testing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xcode15_testing.entitlements; sourceTree = "<group>"; };
 		F73A0F912A2F130D0045EF01 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		F75C2AFB2A2F1EDE009523D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		F73A0F732A2F129D0045EF01 = {
 			isa = PBXGroup;
 			children = (
+				F75C2AFB2A2F1EDE009523D2 /* README.md */,
 				F73A0F7E2A2F129E0045EF01 /* xcode15-testing */,
 				F73A0F7D2A2F129E0045EF01 /* Products */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75C2AFC2A2F1EDE009523D2 /* README.md in Resources */,
 				F73A0F872A2F129F0045EF01 /* Preview Assets.xcassets in Resources */,
 				F73A0F842A2F129F0045EF01 /* Assets.xcassets in Resources */,
 			);
