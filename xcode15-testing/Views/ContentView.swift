@@ -11,7 +11,7 @@ import SwiftData
 struct ContentView: View {
     @Environment (\.modelContext) private var modelContext
     
-    @Query(sort: \.name)
+    @Query(sort: \Dog.name, order: .forward)
     var dogs: [Dog]
     
     var body: some View {
@@ -21,7 +21,7 @@ struct ContentView: View {
             }
             .toolbar {
                 Button("Add") {
-                    let dog = Dog(name: "Bjarki")
+                    let dog = Dog(name: String("Bjarki".shuffled()))
                     modelContext.insert(dog)
                 }
             }

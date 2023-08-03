@@ -10,11 +10,9 @@ import SwiftData
 
 @Model
 class Dog {
+    @Attribute(.unique) var name: String
+
     init (name: String) {
-        self.id = UUID()
         self.name = name
     }
-    
-    var id: UUID
-    var name: String
 }
