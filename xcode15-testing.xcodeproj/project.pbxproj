@@ -8,21 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		F73A0F802A2F129E0045EF01 /* xcode15_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0F7F2A2F129E0045EF01 /* xcode15_testingApp.swift */; };
-		F73A0F822A2F129E0045EF01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0F812A2F129E0045EF01 /* ContentView.swift */; };
+		F73A0F822A2F129E0045EF01 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0F812A2F129E0045EF01 /* DogView.swift */; };
 		F73A0F842A2F129F0045EF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73A0F832A2F129F0045EF01 /* Assets.xcassets */; };
 		F73A0F872A2F129F0045EF01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73A0F862A2F129F0045EF01 /* Preview Assets.xcassets */; };
 		F73A0F922A2F130D0045EF01 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0F912A2F130D0045EF01 /* Dog.swift */; };
+		F750DA1F2A8233180059042F /* ContentUnavailableViewSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA1E2A8233180059042F /* ContentUnavailableViewSearch.swift */; };
+		F750DA212A8233250059042F /* ContentUnavailableViewWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA202A8233250059042F /* ContentUnavailableViewWifi.swift */; };
+		F750DA232A82332F0059042F /* ContentUnavailableViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA222A82332F0059042F /* ContentUnavailableViewCustom.swift */; };
+		F750DA252A8235C20059042F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA242A8235C20059042F /* ContentView.swift */; };
 		F75C2AFC2A2F1EDE009523D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F75C2AFB2A2F1EDE009523D2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F73A0F7C2A2F129E0045EF01 /* xcode15-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode15-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73A0F7F2A2F129E0045EF01 /* xcode15_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode15_testingApp.swift; sourceTree = "<group>"; };
-		F73A0F812A2F129E0045EF01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F73A0F812A2F129E0045EF01 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
 		F73A0F832A2F129F0045EF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F73A0F862A2F129F0045EF01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F73A0F882A2F129F0045EF01 /* xcode15_testing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xcode15_testing.entitlements; sourceTree = "<group>"; };
 		F73A0F912A2F130D0045EF01 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		F750DA1E2A8233180059042F /* ContentUnavailableViewSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewSearch.swift; sourceTree = "<group>"; };
+		F750DA202A8233250059042F /* ContentUnavailableViewWifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewWifi.swift; sourceTree = "<group>"; };
+		F750DA222A82332F0059042F /* ContentUnavailableViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewCustom.swift; sourceTree = "<group>"; };
+		F750DA242A8235C20059042F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F75C2AFB2A2F1EDE009523D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +94,11 @@
 		F73A0F8F2A2F12F00045EF01 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F73A0F812A2F129E0045EF01 /* ContentView.swift */,
+				F73A0F812A2F129E0045EF01 /* DogView.swift */,
+				F750DA1E2A8233180059042F /* ContentUnavailableViewSearch.swift */,
+				F750DA202A8233250059042F /* ContentUnavailableViewWifi.swift */,
+				F750DA222A82332F0059042F /* ContentUnavailableViewCustom.swift */,
+				F750DA242A8235C20059042F /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73A0F822A2F129E0045EF01 /* ContentView.swift in Sources */,
+				F750DA212A8233250059042F /* ContentUnavailableViewWifi.swift in Sources */,
+				F750DA1F2A8233180059042F /* ContentUnavailableViewSearch.swift in Sources */,
+				F750DA252A8235C20059042F /* ContentView.swift in Sources */,
+				F73A0F822A2F129E0045EF01 /* DogView.swift in Sources */,
+				F750DA232A82332F0059042F /* ContentUnavailableViewCustom.swift in Sources */,
 				F73A0F802A2F129E0045EF01 /* xcode15_testingApp.swift in Sources */,
 				F73A0F922A2F130D0045EF01 /* Dog.swift in Sources */,
 			);
