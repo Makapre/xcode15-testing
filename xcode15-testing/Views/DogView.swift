@@ -16,14 +16,25 @@ struct DogView: View {
     
     var body: some View {
         NavigationView {
-            List(dogs) { dog in
-                Text(dog.name)
+            List {
+                ForEach(dogs) { dog in
+                    Text(dog.name)
+                }
+                .onDelete(perform: deleteDogs)
             }
             .toolbar {
                 Button("Add") {
                     let dog = Dog(name: String("Bjarki".shuffled()))
                     modelContext.insert(dog)
                 }
+            }
+        }
+    }
+    
+    private func deleteDogs(offsets: IndexSet) {
+        withAnimation {
+            for index in offsets {
+                modelContext.delete(dogs[index])
             }
         }
     }
