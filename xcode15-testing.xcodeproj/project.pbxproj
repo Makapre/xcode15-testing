@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7436DF12A841BA300EAC41E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF02A841BA300EAC41E /* PieChart.swift */; };
+		F7436DF32A841EA600EAC41E /* ContentUnavailableViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF22A841EA600EAC41E /* ContentUnavailableViewList.swift */; };
+		F7436DF52A841EEE00EAC41E /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF42A841EEE00EAC41E /* Charts.swift */; };
+		F7436DF72A841F7700EAC41E /* PieChartOuterRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF62A841F7700EAC41E /* PieChartOuterRadius.swift */; };
+		F7436DF92A841FEB00EAC41E /* PieChartAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF82A841FEB00EAC41E /* PieChartAnnotation.swift */; };
+		F7436DFD2A84206100EAC41E /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DFC2A84206100EAC41E /* DonutChart.swift */; };
+		F7436DFF2A84210300EAC41E /* DonutChartAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DFE2A84210300EAC41E /* DonutChartAnnotation.swift */; };
+		F7436E012A8421EA00EAC41E /* DonutChartInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436E002A8421EA00EAC41E /* DonutChartInteraction.swift */; };
 		F7AE7CA82A82C78600B61D2F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0F912A2F130D0045EF01 /* Dog.swift */; };
 		F7AE7CA92A82C79500B61D2F /* ContentUnavailableViewSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA1E2A8233180059042F /* ContentUnavailableViewSearch.swift */; };
 		F7AE7CAA2A82C79500B61D2F /* ContentUnavailableViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA222A82332F0059042F /* ContentUnavailableViewCustom.swift */; };
@@ -19,6 +27,14 @@
 /* Begin PBXFileReference section */
 		F73A0F812A2F129E0045EF01 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
 		F73A0F912A2F130D0045EF01 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		F7436DF02A841BA300EAC41E /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		F7436DF22A841EA600EAC41E /* ContentUnavailableViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewList.swift; sourceTree = "<group>"; };
+		F7436DF42A841EEE00EAC41E /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		F7436DF62A841F7700EAC41E /* PieChartOuterRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartOuterRadius.swift; sourceTree = "<group>"; };
+		F7436DF82A841FEB00EAC41E /* PieChartAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartAnnotation.swift; sourceTree = "<group>"; };
+		F7436DFC2A84206100EAC41E /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
+		F7436DFE2A84210300EAC41E /* DonutChartAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartAnnotation.swift; sourceTree = "<group>"; };
+		F7436E002A8421EA00EAC41E /* DonutChartInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartInteraction.swift; sourceTree = "<group>"; };
 		F750DA1E2A8233180059042F /* ContentUnavailableViewSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewSearch.swift; sourceTree = "<group>"; };
 		F750DA202A8233250059042F /* ContentUnavailableViewWifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewWifi.swift; sourceTree = "<group>"; };
 		F750DA222A82332F0059042F /* ContentUnavailableViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewCustom.swift; sourceTree = "<group>"; };
@@ -67,13 +83,37 @@
 		F73A0F8F2A2F12F00045EF01 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7436DFB2A84203100EAC41E /* ContentUnavailableView */,
+				F7436DFA2A84201F00EAC41E /* Charts */,
 				F73A0F812A2F129E0045EF01 /* DogView.swift */,
-				F750DA1E2A8233180059042F /* ContentUnavailableViewSearch.swift */,
-				F750DA202A8233250059042F /* ContentUnavailableViewWifi.swift */,
-				F750DA222A82332F0059042F /* ContentUnavailableViewCustom.swift */,
 				F750DA242A8235C20059042F /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F7436DFA2A84201F00EAC41E /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				F7436DF02A841BA300EAC41E /* PieChart.swift */,
+				F7436DF62A841F7700EAC41E /* PieChartOuterRadius.swift */,
+				F7436DF42A841EEE00EAC41E /* Charts.swift */,
+				F7436DF82A841FEB00EAC41E /* PieChartAnnotation.swift */,
+				F7436DFC2A84206100EAC41E /* DonutChart.swift */,
+				F7436DFE2A84210300EAC41E /* DonutChartAnnotation.swift */,
+				F7436E002A8421EA00EAC41E /* DonutChartInteraction.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		F7436DFB2A84203100EAC41E /* ContentUnavailableView */ = {
+			isa = PBXGroup;
+			children = (
+				F750DA1E2A8233180059042F /* ContentUnavailableViewSearch.swift */,
+				F750DA202A8233250059042F /* ContentUnavailableViewWifi.swift */,
+				F750DA222A82332F0059042F /* ContentUnavailableViewCustom.swift */,
+				F7436DF22A841EA600EAC41E /* ContentUnavailableViewList.swift */,
+			);
+			path = ContentUnavailableView;
 			sourceTree = "<group>";
 		};
 		F7AE7C992A82C72800B61D2F /* xcode15-testing */ = {
@@ -155,12 +195,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AE7CAD2A82C79500B61D2F /* DogView.swift in Sources */,
+				F7436DF12A841BA300EAC41E /* PieChart.swift in Sources */,
+				F7436DF92A841FEB00EAC41E /* PieChartAnnotation.swift in Sources */,
+				F7436DF32A841EA600EAC41E /* ContentUnavailableViewList.swift in Sources */,
 				F7AE7CA92A82C79500B61D2F /* ContentUnavailableViewSearch.swift in Sources */,
 				F7AE7CAF2A82C7D700B61D2F /* xcode15_testingApp.swift in Sources */,
 				F7AE7CAB2A82C79500B61D2F /* ContentView.swift in Sources */,
+				F7436DFD2A84206100EAC41E /* DonutChart.swift in Sources */,
 				F7AE7CA82A82C78600B61D2F /* Dog.swift in Sources */,
 				F7AE7CAA2A82C79500B61D2F /* ContentUnavailableViewCustom.swift in Sources */,
+				F7436E012A8421EA00EAC41E /* DonutChartInteraction.swift in Sources */,
+				F7436DFF2A84210300EAC41E /* DonutChartAnnotation.swift in Sources */,
+				F7436DF52A841EEE00EAC41E /* Charts.swift in Sources */,
 				F7AE7CAC2A82C79500B61D2F /* ContentUnavailableViewWifi.swift in Sources */,
+				F7436DF72A841F7700EAC41E /* PieChartOuterRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,6 +29,7 @@ struct DogView: View {
                 }
             }
         }
+        .navigationTitle(Text("SwiftData Example"))
     }
     
     private func deleteDogs(offsets: IndexSet) {

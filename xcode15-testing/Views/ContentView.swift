@@ -14,17 +14,13 @@ struct ContentView: View {
                 .tabItem {
                     Label("Dog", systemImage: "pawprint")
                 }
-            ContentUnavailableViewSearch()
+            ContentUnavailableViewList()
                 .tabItem {
-                    Label("Search", systemImage: "magnifyingglass")
+                    Label("CUV", systemImage: "magnifyingglass")
                 }
-            ContentUnavailableViewWifi()
+            Charts()
                 .tabItem {
-                    Label("Wifi", systemImage: "wifi")
-                }
-            ContentUnavailableViewCustom()
-                .tabItem {
-                    Label("Custom", systemImage: "pencil")
+                    Label("Charts", systemImage: "chart.pie")
                 }
         }
     }

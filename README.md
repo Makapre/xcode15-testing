@@ -9,3 +9,4 @@ Testing w/ Xcode 15 and new betas
     - predefined
     - edited
     - custom w/ action
+- Charts
