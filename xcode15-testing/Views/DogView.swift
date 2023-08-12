@@ -29,6 +29,10 @@ struct DogView: View {
                 }
             }
         }
+        .onAppear {
+            // example usage of keypath
+            print(dogs.map(\.name))
+        }
         .navigationTitle(Text("SwiftData Example"))
     }
     
