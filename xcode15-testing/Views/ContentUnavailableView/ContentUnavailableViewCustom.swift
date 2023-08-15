@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentUnavailableViewCustom: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ContentUnavailableView {
                 Label("Custom title with image", systemImage: "tray.and.arrow.down.fill")
             } description: {

@@ -22,7 +22,7 @@ struct DonutChartInteraction: View {
     ]
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Chart {
                     ForEach(coffeeSales, id: \.name) { coffee in

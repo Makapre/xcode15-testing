@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentUnavailableViewList: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 NavigationLink(destination: ContentUnavailableViewSearch()) {
                     Text("ContentUnavailableViewSearch")

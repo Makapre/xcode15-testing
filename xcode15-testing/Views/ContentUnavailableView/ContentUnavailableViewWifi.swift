@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentUnavailableViewWifi: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ContentUnavailableView("Wifi", systemImage: "wifi.exclamationmark", description: Text("No wifi available!"))
         }
         .navigationTitle(Text("Content unavailable configured"))

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Charts: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 NavigationLink(destination: PieChart()) {
                     Text("PieChart")

@@ -15,7 +15,7 @@ struct DogView: View {
     var dogs: [Dog]
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(dogs) { dog in
                     Text(dog.name)

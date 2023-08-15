@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentUnavailableViewSearch: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ContentUnavailableView.search
         }
         .navigationTitle(Text("Content unavailable preset"))

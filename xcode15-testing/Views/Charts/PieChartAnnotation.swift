@@ -19,7 +19,7 @@ struct PieChartAnnotation: View {
     ]
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Chart {
                     ForEach(coffeeSales, id: \.name) { coffee in
