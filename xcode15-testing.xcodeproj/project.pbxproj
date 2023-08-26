@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F736BD872A9A63620059B6EE /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736BD862A9A63620059B6EE /* Symbols.swift */; };
 		F7436DF12A841BA300EAC41E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF02A841BA300EAC41E /* PieChart.swift */; };
 		F7436DF32A841EA600EAC41E /* ContentUnavailableViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF22A841EA600EAC41E /* ContentUnavailableViewList.swift */; };
 		F7436DF52A841EEE00EAC41E /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7436DF42A841EEE00EAC41E /* Charts.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F736BD862A9A63620059B6EE /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		F73A0F812A2F129E0045EF01 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
 		F73A0F912A2F130D0045EF01 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		F7436DF02A841BA300EAC41E /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				F7436DFA2A84201F00EAC41E /* Charts */,
 				F73A0F812A2F129E0045EF01 /* DogView.swift */,
 				F750DA242A8235C20059042F /* ContentView.swift */,
+				F736BD862A9A63620059B6EE /* Symbols.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AE7CAD2A82C79500B61D2F /* DogView.swift in Sources */,
+				F736BD872A9A63620059B6EE /* Symbols.swift in Sources */,
 				F7436DF12A841BA300EAC41E /* PieChart.swift in Sources */,
 				F7436DF92A841FEB00EAC41E /* PieChartAnnotation.swift in Sources */,
 				F7436DF32A841EA600EAC41E /* ContentUnavailableViewList.swift in Sources */,

@@ -22,6 +22,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Charts", systemImage: "chart.pie")
                 }
+            Symbols()
+                .tabItem {
+                    Label("Symbols", systemImage: "drop.halffull")
+                }
         }
     }
 }
