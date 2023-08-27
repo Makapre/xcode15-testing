@@ -11,10 +11,9 @@ Testing w/ Xcode 15 and new betas
     - custom w/ action
 - Charts
 - SF Symbols 5
-
+- TipKit
 
 ## wannado
 
-- TipKit
 - Widgets
 - Observable

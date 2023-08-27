@@ -7,6 +7,28 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
+
+struct DogTip: Tip {
+    var rules: [Rule] {
+        // Tip will only display when the landmarksAppDidOpen event has been donated 3 or more times in the last week.
+        #Rule(DogView.hasNoDogs) {
+            $0.donations.count > 0
+        }
+    }
+    
+    var title: Text {
+        Text("Add new Dog here")
+    }
+    
+    var message: Text? {
+        Text("Press the add button to add a new dog with SwiftData.")
+    }
+    
+    var image: Image? {
+        Image(systemName: "pawprint")
+    }
+}
 
 struct DogView: View {
     @Environment (\.modelContext) private var modelContext
@@ -14,8 +36,14 @@ struct DogView: View {
     @Query(sort: \Dog.name, order: .forward)
     var dogs: [Dog]
     
+    var dogTip = DogTip()
+    
+    static let hasNoDogs = Tips.Event(id: "hasNoDogs")
+    
     var body: some View {
         NavigationStack {
+            TipView(dogTip)
+
             List {
                 ForEach(dogs) { dog in
                     Text(dog.name)
@@ -29,9 +57,23 @@ struct DogView: View {
                 }
             }
         }
+        .task {
+            // resets data store for testing
+            try? Tips.resetDatastore()
+            
+            // Configure and load your tips at app launch.
+            try? Tips.configure([
+                .displayFrequency(.immediate),
+                .datastoreLocation(.applicationDefault)
+            ])
+        }
         .onAppear {
             // example usage of keypath
             print(dogs.map(\.name))
+            
+            if dogs.isEmpty {
+                Self.hasNoDogs.sendDonation()
+            }
         }
         .navigationTitle(Text("SwiftData Example"))
     }
