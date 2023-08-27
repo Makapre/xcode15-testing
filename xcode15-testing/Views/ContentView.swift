@@ -26,6 +26,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Symbols", systemImage: "drop.halffull")
                 }
+            TipKitView()
+                .tabItem {
+                    Label("TipKit", systemImage: "pencil.tip")
+                }
         }
     }
 }

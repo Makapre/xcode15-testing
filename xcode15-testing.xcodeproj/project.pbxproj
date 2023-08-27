@@ -23,6 +23,7 @@
 		F7AE7CAC2A82C79500B61D2F /* ContentUnavailableViewWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA202A8233250059042F /* ContentUnavailableViewWifi.swift */; };
 		F7AE7CAD2A82C79500B61D2F /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0F812A2F129E0045EF01 /* DogView.swift */; };
 		F7AE7CAF2A82C7D700B61D2F /* xcode15_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE7CAE2A82C7D700B61D2F /* xcode15_testingApp.swift */; };
+		F7FB00292A9B8CB400C293CF /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FB00282A9B8CB300C293CF /* TipKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		F75C2AFB2A2F1EDE009523D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7AE7C982A82C72800B61D2F /* xcode15-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode15-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AE7CAE2A82C7D700B61D2F /* xcode15_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode15_testingApp.swift; sourceTree = "<group>"; };
+		F7FB00282A9B8CB300C293CF /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				F73A0F812A2F129E0045EF01 /* DogView.swift */,
 				F750DA242A8235C20059042F /* ContentView.swift */,
 				F736BD862A9A63620059B6EE /* Symbols.swift */,
+				F7FB00282A9B8CB300C293CF /* TipKitView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				F7436DFF2A84210300EAC41E /* DonutChartAnnotation.swift in Sources */,
 				F7436DF52A841EEE00EAC41E /* Charts.swift in Sources */,
 				F7AE7CAC2A82C79500B61D2F /* ContentUnavailableViewWifi.swift in Sources */,
+				F7FB00292A9B8CB400C293CF /* TipKitView.swift in Sources */,
 				F7436DF72A841F7700EAC41E /* PieChartOuterRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
