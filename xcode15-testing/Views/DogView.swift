@@ -11,7 +11,6 @@ import TipKit
 
 struct DogTip: Tip {
     var rules: [Rule] {
-        // Tip will only display when the landmarksAppDidOpen event has been donated 3 or more times in the last week.
         #Rule(DogView.hasNoDogs) {
             $0.donations.count > 0
         }
@@ -47,6 +46,13 @@ struct DogView: View {
             List {
                 ForEach(dogs) { dog in
                     Text(dog.name)
+                    .contextMenu {
+                        Button {
+                            modelContext.delete(dog)
+                        } label: {
+                            Label("delete", systemImage: "trash")
+                        }
+                    }
                 }
                 .onDelete(perform: deleteDogs)
             }
@@ -55,6 +61,7 @@ struct DogView: View {
                     let dog = Dog(name: String("Bjarki".shuffled()))
                     modelContext.insert(dog)
                 }
+                EditButton()
             }
         }
         .task {
